@@ -24,16 +24,14 @@ namespace Powershell_Wrapper
             //get filepath of dropped item and add it to the listbox
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
             listBox1.Items.Add(files[0]);
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+
             String Datei = listBox1.Items[0].ToString();
             Datei = Datei.Replace(".txt", "_flip.txt");
 
 
 
- 
+
             //open file from listbox an read line for line
             file = new System.IO.StreamWriter(Datei, true);
             file.WriteLine("DELAY 2000");
@@ -54,19 +52,24 @@ namespace Powershell_Wrapper
                 //make sure the line is not empty
                 if (line != "")
                 {
-                    //split the line into two parts
-                    string[] parts = line.Split(';');
+                    if (!line.StartsWith("//"))
+                    {
+                        //split the line into two parts
+                        string[] parts = line.Split(';');
 
-                    file = new System.IO.StreamWriter(Datei, true);
-                    file.WriteLine("STRING " + line);               
-                    file.WriteLine("ENTER");               
-                    file.Close();
+                        file = new System.IO.StreamWriter(Datei, true);
+                        file.WriteLine("STRING " + line);
+                        file.WriteLine("ENTER");
+                        file.Close();
+                    }
+
                 }
 
 
             }
-                     
+
         }
+ 
 
     }
 }
