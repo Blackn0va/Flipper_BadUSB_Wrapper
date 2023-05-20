@@ -1,4 +1,4 @@
-# Flipper_BadUSB_Wrapper
+# Flipper BadUSB Wrapper
 Wraps a powershell script from kali linux to Flipper Zero BadUSB
 
 
