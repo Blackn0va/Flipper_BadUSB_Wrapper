@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHauptprogramm));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.cmdConvert = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -65,6 +66,7 @@
             this.ClientSize = new System.Drawing.Size(454, 132);
             this.Controls.Add(this.cmdConvert);
             this.Controls.Add(this.listBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(470, 171);
             this.MinimumSize = new System.Drawing.Size(470, 171);
             this.Name = "frmHauptprogramm";

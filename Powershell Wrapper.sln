@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powershell Wrapper", "Powershell Wrapper\Powershell Wrapper.csproj", "{5556EFCD-08AF-40A9-A70C-16C8950FB56A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FlipperZero Powershell Wrapper Setup", "FlipperZero Powershell Wrapper Setup\FlipperZero Powershell Wrapper Setup.vdproj", "{24C74E34-FCA8-4C0C-84E4-947BD4DA934F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5556EFCD-08AF-40A9-A70C-16C8950FB56A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5556EFCD-08AF-40A9-A70C-16C8950FB56A}.Release|x64.ActiveCfg = Release|x64
 		{5556EFCD-08AF-40A9-A70C-16C8950FB56A}.Release|x64.Build.0 = Release|x64
+		{24C74E34-FCA8-4C0C-84E4-947BD4DA934F}.Debug|Any CPU.ActiveCfg = Debug
+		{24C74E34-FCA8-4C0C-84E4-947BD4DA934F}.Debug|x64.ActiveCfg = Debug
+		{24C74E34-FCA8-4C0C-84E4-947BD4DA934F}.Release|Any CPU.ActiveCfg = Release
+		{24C74E34-FCA8-4C0C-84E4-947BD4DA934F}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
