@@ -1,4 +1,4 @@
-# Flipper_BadUSB_Wrapper
+# Flipper BadUSB Wrapper
 Wraps a powershell script from kali linux to Flipper Zero BadUSB
 
 
@@ -10,3 +10,6 @@ Known Issues
 -	        13  0D	15
 -	        10  0A	12
 -	  -     45  2D	55
+
+
+You can DragDrop multible powershell Scripts build in Kali LInux and Convert this files for Flipper Zero or RubberDucky.
