@@ -43,7 +43,7 @@
             this.listBox1.Location = new System.Drawing.Point(4, 4);
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(448, 95);
+            this.listBox1.Size = new System.Drawing.Size(444, 82);
             this.listBox1.TabIndex = 0;
             this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
             this.listBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox1_DragEnter);
@@ -67,6 +67,7 @@
             this.Controls.Add(this.cmdConvert);
             this.Controls.Add(this.listBox1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(470, 171);
             this.MinimumSize = new System.Drawing.Size(470, 171);
