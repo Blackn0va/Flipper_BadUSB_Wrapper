@@ -17,7 +17,7 @@
             {
                 components.Dispose();
             }
-            //nnn
+            //nnnc
             base.Dispose(disposing);
             //
         }
