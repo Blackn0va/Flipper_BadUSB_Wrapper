@@ -12,7 +12,7 @@ Wraps a powershell script from kali linux to Flipper Zero BadUSB
 ![Screenshot 2023-12-24 123046](https://github.com/Blackn0va/Flipper_BadUSB_Wrapper/assets/12220332/82c58b6e-82eb-41b6-9d5f-efef0a46b6ec)
 
 
-Known Issues
+Known Issues 
 
 - ASCII Code – and - are buggy..
 -   Char	Dec	Hex	Oct
