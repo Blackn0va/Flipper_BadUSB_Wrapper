@@ -9,7 +9,7 @@ namespace Powershell_Wrapper
     internal static class Program
     {
         /// <summary>
-        /// Der Haupteinstiegspunkt für die Anwendung.
+        /// Der Haupteinstiegspunkt für die Anwendung.ddf
         /// </summary>
         [STAThread]
         static void Main()
