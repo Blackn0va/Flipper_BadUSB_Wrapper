@@ -19,7 +19,7 @@
             }
             //nnnc
             base.Dispose(disposing);
-            //ssss
+            //ssssc
         }
 
         #region Vom Windows Form-Designer generierter Code
