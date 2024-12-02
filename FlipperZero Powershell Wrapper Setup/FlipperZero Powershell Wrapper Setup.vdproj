@@ -11,20 +11,9 @@
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
 "SccProvider" = "8:"
+"BackwardsCompatibleGUIDGeneration" = "8:TRUE"
     "Hierarchy"
     {
-        "Entry"
-        {
-        "MsmKey" = "8:_17932E2D2C4A14630F053766D7D6CAD5"
-        "OwnerKey" = "8:_FDEB07DCD70642A692F8AF6ED1AFE97F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_17932E2D2C4A14630F053766D7D6CAD5"
-        "OwnerKey" = "8:_7B0FE6036F7440DD9ADF46329FC53F6E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
         "Entry"
         {
         "MsmKey" = "8:_7B0FE6036F7440DD9ADF46329FC53F6E"
@@ -35,6 +24,18 @@
         {
         "MsmKey" = "8:_92ABC0B072F8444D8E7FBB7A25332E01"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
+        "OwnerKey" = "8:_7B0FE6036F7440DD9ADF46329FC53F6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
+        "OwnerKey" = "8:_FDEB07DCD70642A692F8AF6ED1AFE97F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,7 +59,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_17932E2D2C4A14630F053766D7D6CAD5"
+        "OwnerKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -86,6 +87,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -148,14 +157,34 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_17932E2D2C4A14630F053766D7D6CAD5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92ABC0B072F8444D8E7FBB7A25332E01"
+            {
+            "SourcePath" = "8:..\\Powershell Wrapper\\Resources\\powershell_button_icon_151870.ico"
+            "TargetName" = "8:powershell_button_icon_151870.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC6C1764BFB4442A28C96B8F6D07B35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B118096F4E7EE22E3353F593AE3CC180"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_17932E2D2C4A14630F053766D7D6CAD5"
+                    "_B118096F4E7EE22E3353F593AE3CC180"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -177,26 +206,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92ABC0B072F8444D8E7FBB7A25332E01"
-            {
-            "SourcePath" = "8:..\\Powershell Wrapper\\Resources\\powershell_button_icon_151870.ico"
-            "TargetName" = "8:powershell_button_icon_151870.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_9DC6C1764BFB4442A28C96B8F6D07B35"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -255,15 +264,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FlipperZero Powershell Wrapper Setup"
-        "ProductCode" = "8:{D3A5C95B-1355-47C6-963D-0A8DF2EE29B2}"
-        "PackageCode" = "8:{4EC9B954-B57D-4C32-9ED9-432D67D19A73}"
+        "ProductCode" = "8:{2AB125EC-CA40-4009-A3D3-868EF130D60C}"
+        "PackageCode" = "8:{7470A70E-8797-4C99-888F-36A6E116B12E}"
         "UpgradeCode" = "8:{66E9B006-FD45-464F-9896-84B55BF24107}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:2.0.0"
         "Manufacturer" = "8:8lackn0va"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -791,7 +800,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7B0FE6036F7440DD9ADF46329FC53F6E"
             {
-            "SourcePath" = "8:..\\Powershell Wrapper\\obj\\x64\\Release\\Powershell Wrapper.exe"
+            "SourcePath" = "8:..\\Powershell Wrapper\\obj\\x64\\Debug\\Powershell Wrapper.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9DC6C1764BFB4442A28C96B8F6D07B35"
@@ -819,7 +828,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FDEB07DCD70642A692F8AF6ED1AFE97F"
             {
-            "SourcePath" = "8:..\\Powershell Wrapper\\obj\\x64\\Release\\Powershell Wrapper.exe"
+            "SourcePath" = "8:..\\Powershell Wrapper\\obj\\x64\\Debug\\Powershell Wrapper.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CA1348719D32412B8A90753E994BDBB6"

@@ -33,6 +33,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHauptprogramm));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.cmdConvert = new System.Windows.Forms.Button();
+            this.toJavascriptCheck = new System.Windows.Forms.CheckBox();
+            this.toBadUSBCheck = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // listBox1
@@ -60,12 +62,36 @@
             this.cmdConvert.UseVisualStyleBackColor = true;
             this.cmdConvert.Click += new System.EventHandler(this.cmdConvert_Click);
             // 
+            // toJavascriptCheck
+            // 
+            this.toJavascriptCheck.AutoSize = true;
+            this.toJavascriptCheck.Location = new System.Drawing.Point(4, 88);
+            this.toJavascriptCheck.Name = "toJavascriptCheck";
+            this.toJavascriptCheck.Size = new System.Drawing.Size(90, 17);
+            this.toJavascriptCheck.TabIndex = 2;
+            this.toJavascriptCheck.Text = "To Javascript";
+            this.toJavascriptCheck.UseVisualStyleBackColor = true;
+            this.toJavascriptCheck.CheckStateChanged += new System.EventHandler(this.toJavascriptCheck_CheckStateChanged);
+            // 
+            // toBadUSBCheck
+            // 
+            this.toBadUSBCheck.AutoSize = true;
+            this.toBadUSBCheck.Location = new System.Drawing.Point(91, 88);
+            this.toBadUSBCheck.Name = "toBadUSBCheck";
+            this.toBadUSBCheck.Size = new System.Drawing.Size(83, 17);
+            this.toBadUSBCheck.TabIndex = 3;
+            this.toBadUSBCheck.Text = "To BadUSB";
+            this.toBadUSBCheck.UseVisualStyleBackColor = true;
+            this.toBadUSBCheck.CheckStateChanged += new System.EventHandler(this.toBadUSBCheck_CheckStateChanged);
+            // 
             // frmHauptprogramm
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(454, 132);
+            this.Controls.Add(this.toBadUSBCheck);
+            this.Controls.Add(this.toJavascriptCheck);
             this.Controls.Add(this.cmdConvert);
             this.Controls.Add(this.listBox1);
             this.DoubleBuffered = true;
@@ -76,6 +102,7 @@
             this.Name = "frmHauptprogramm";
             this.Text = "Flipper BadUSB Wrapper";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,6 +110,8 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button cmdConvert;
+        private System.Windows.Forms.CheckBox toJavascriptCheck;
+        private System.Windows.Forms.CheckBox toBadUSBCheck;
     }
 }
 
