@@ -7,9 +7,10 @@
 [![GitHub commits](https://badgen.net/github/commits/Blackn0va/Flipper_BadUSB_Wrapper)](https://GitHub.com/Blackn0va/Flipper_BadUSB_Wrapper/commit/)
 
 # Flipper BadUSB Wrapper
-Wraps a powershell script from kali linux to Flipper Zero BadUSB
+Wraps a powershell script from kali linux to Flipper Zero BadUSB and Javascript
 
-![Screenshot 2023-12-24 123046](https://github.com/Blackn0va/Flipper_BadUSB_Wrapper/assets/12220332/82c58b6e-82eb-41b6-9d5f-efef0a46b6ec)
+![grafik](https://github.com/user-attachments/assets/7b28d955-3184-4e70-ada6-597a37ab51f5)
+
 
 
 Known Issues  
