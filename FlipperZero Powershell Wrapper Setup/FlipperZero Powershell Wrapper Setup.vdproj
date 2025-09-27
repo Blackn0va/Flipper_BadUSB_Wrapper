@@ -28,13 +28,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
+        "MsmKey" = "8:_C264A1249CAD8E75085EA21830E0ECF4"
         "OwnerKey" = "8:_7B0FE6036F7440DD9ADF46329FC53F6E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
+        "MsmKey" = "8:_C264A1249CAD8E75085EA21830E0ECF4"
         "OwnerKey" = "8:_FDEB07DCD70642A692F8AF6ED1AFE97F"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -59,7 +59,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B118096F4E7EE22E3353F593AE3CC180"
+        "OwnerKey" = "8:_C264A1249CAD8E75085EA21830E0ECF4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -177,14 +177,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B118096F4E7EE22E3353F593AE3CC180"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C264A1249CAD8E75085EA21830E0ECF4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_B118096F4E7EE22E3353F593AE3CC180"
+                    "_C264A1249CAD8E75085EA21830E0ECF4"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -264,15 +264,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FlipperZero Powershell Wrapper Setup"
-        "ProductCode" = "8:{2AB125EC-CA40-4009-A3D3-868EF130D60C}"
-        "PackageCode" = "8:{7470A70E-8797-4C99-888F-36A6E116B12E}"
+        "ProductCode" = "8:{AED902D8-DAA1-411F-B481-0476C74422C8}"
+        "PackageCode" = "8:{0044F76E-6565-40E6-A330-373975884FB7}"
         "UpgradeCode" = "8:{66E9B006-FD45-464F-9896-84B55BF24107}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.0.0"
+        "ProductVersion" = "8:2.0.1"
         "Manufacturer" = "8:8lackn0va"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -800,7 +800,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7B0FE6036F7440DD9ADF46329FC53F6E"
             {
-            "SourcePath" = "8:..\\Powershell Wrapper\\obj\\x64\\Debug\\Powershell Wrapper.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9DC6C1764BFB4442A28C96B8F6D07B35"

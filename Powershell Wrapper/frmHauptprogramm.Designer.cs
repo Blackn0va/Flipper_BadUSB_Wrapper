@@ -35,6 +35,8 @@
             this.cmdConvert = new System.Windows.Forms.Button();
             this.toJavascriptCheck = new System.Windows.Forms.CheckBox();
             this.toBadUSBCheck = new System.Windows.Forms.CheckBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -56,7 +58,7 @@
             // 
             this.cmdConvert.Location = new System.Drawing.Point(4, 106);
             this.cmdConvert.Name = "cmdConvert";
-            this.cmdConvert.Size = new System.Drawing.Size(448, 23);
+            this.cmdConvert.Size = new System.Drawing.Size(362, 23);
             this.cmdConvert.TabIndex = 1;
             this.cmdConvert.Text = "Convert for Flipper";
             this.cmdConvert.UseVisualStyleBackColor = true;
@@ -84,12 +86,38 @@
             this.toBadUSBCheck.UseVisualStyleBackColor = true;
             this.toBadUSBCheck.CheckStateChanged += new System.EventHandler(this.toBadUSBCheck_CheckStateChanged);
             // 
+            // btnClear
+            // 
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClear.Location = new System.Drawing.Point(372, 106);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(80, 23);
+            this.btnClear.TabIndex = 4;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblStatus.AutoEllipsis = true;
+            this.lblStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblStatus.Location = new System.Drawing.Point(4, 134);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblStatus.Size = new System.Drawing.Size(448, 32);
+            this.lblStatus.TabIndex = 5;
+            this.lblStatus.Text = "Status";
+            // 
             // frmHauptprogramm
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 132);
+            this.ClientSize = new System.Drawing.Size(454, 170);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.toBadUSBCheck);
             this.Controls.Add(this.toJavascriptCheck);
             this.Controls.Add(this.cmdConvert);
@@ -97,8 +125,8 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(470, 171);
-            this.MinimumSize = new System.Drawing.Size(470, 171);
+            this.MaximumSize = new System.Drawing.Size(470, 209);
+            this.MinimumSize = new System.Drawing.Size(470, 209);
             this.Name = "frmHauptprogramm";
             this.Text = "Flipper BadUSB Wrapper";
             this.ResumeLayout(false);
@@ -112,6 +140,8 @@
         private System.Windows.Forms.Button cmdConvert;
         private System.Windows.Forms.CheckBox toJavascriptCheck;
         private System.Windows.Forms.CheckBox toBadUSBCheck;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label lblStatus;
     }
 }
 
